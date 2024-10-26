@@ -57,7 +57,16 @@
             </div>
         </section>
     </section>
-    
+     <!-- Footer -->
+<footer class="mx-auto bg-gray-500">
+    <p class="text-center text-2xl mb-5 p-5">© Portfolio créé par Sabjon Mali Le 24/10/2024</p>
+    <div class="flex gap-10 justify-center">
+        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn"/>
+        <img width="50" height="50" src="https://img.icons8.com/material-outlined/50/github.png" alt="GitHub"/>
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="Twitter"/>
+        <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/indeed.png" alt="Indeed"/>
+    </div>
+</footer>   
 </template>
 
 <script>

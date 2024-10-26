@@ -9,7 +9,7 @@
         
         <div class="flex">
             <p class="text-blue-500 font-semibold p-3 text-2xl">Tu ne me connais toujours pas ?</p>
-            <a href="information.html" class="text-2xl bg-red-500 p-3 font-bold rounded-lg hover:bg-gray-800">Mon profil</a>
+            <router-link class="text-2xl bg-red-500 p-3 font-bold rounded-lg hover:bg-gray-800" to="./Erreur">Mon profil</router-link>
         </div>
     </div>
 </div>
@@ -66,7 +66,7 @@
                 <p class="ml-2">Formulaire de contact personnalisé</p>
             </div>
         </div>
-
+ 
         <!-- Quatrième carte -->
         <div class="p-9 border border-gray rounded-xl shadow-xl">
             <h1 class="text-left font-semibold mb-8">Offre E-Commerce Basique</h1>
@@ -116,12 +116,19 @@
                 <img width="24" height="24" src="https://img.icons8.com/plumpy/24/verified-account.png" alt="verified-account"/>
                 <p class="ml-2">Application responsive avec intégration de services tiers</p>
             </div>
-        </div>
-
-        <!-- Septième carte -->
-       
+        </div>       
     </div>
 </div>
+ <!-- Footer -->
+ <footer class="mx-auto bg-gray-500">
+    <p class="text-center text-2xl mb-5 p-5">© Portfolio créé par Sabjon Mali Le 24/10/2024</p>
+    <div class="flex gap-10 justify-center">
+        <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/linkedin.png" alt="LinkedIn"/>
+        <img width="50" height="50" src="https://img.icons8.com/material-outlined/50/github.png" alt="GitHub"/>
+        <img width="50" height="50" src="https://img.icons8.com/ios/50/twitterx--v2.png" alt="Twitter"/>
+        <img width="48" height="48" src="https://img.icons8.com/pulsar-color/48/indeed.png" alt="Indeed"/>
+    </div>
+</footer>   
 </template>
 <script>
 export default {

@@ -26,7 +26,7 @@
                 <div class="grid grid-cols-1 sm:grid-cols-3 mt-14 gap-4">
     
                     <!-- compétence : créativité -->
-                    <article class="shadow-xl rounded-xl bg-white text-left w-full h-96">
+                    <article class="shadow-xl rounded-xl bg-white text-left w-full h-96 ">
                         <div class="p-9 rounded-xl">
                             <svg class="w-12 h-12 mx-auto text-gray-400 sm:mx-0" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Icône de créativité">
                                 <path d="M11 8L20 8" stroke="#111827" stroke-width="2" stroke-linecap="round"></path>
@@ -34,7 +34,7 @@
                                 <ellipse cx="7" cy="8" rx="3" ry="3" transform="rotate(90 7 8)" stroke="#111827" stroke-width="2" stroke-linecap="round"></ellipse>
                                 <ellipse cx="17" cy="16" rx="3" ry="3" transform="rotate(90 17 16)" stroke="#111827" stroke-width="2" stroke-linecap="round"></ellipse>
                             </svg>
-                            <h2 class="mt-6 font-bold text-4xl">créativité</h2>
+                            <h2 class="mt-6 font-bold text-4xl ">créativité</h2>
                             <p class="text-left mt-7 text-xl text-gray-500">je propose des solutions innovantes et originales, en adéquation avec les besoins des clients et les tendances actuelles du marché.</p>
                         </div>
                     </article>
@@ -185,25 +185,47 @@
 
 
  <!--début aside-->
-<section class="h-auto bg-gray-500 w-full pt-12 md:pb-20 border-b border-[#23232C] p-3">
-    <div class="max-w-6xl mx-auto md:text-center tails-relative">
-        <h2 class="jakarta text-white font-bold text-xl md:px-0 px-10 md:text-3xl">MON PROFIL ✨</h2>
-        <p class="text-gray-400 mt-2 md:mt-5 md:px-0 px-10 md:text-2xl">découvrer moi plus en détaille</p>
-        <a href="#"
-            class="inline-flex mt-12 justify-center md:mt-8 items-center w-full px-8 py-5 md:mb-6 text-xl font-bold text-white bg-gradient-to-r from-blue-600 to-indigo-700 hover:from-blue-500 hover:to-indigo-700 sm:mb-0 md:w-auto hover:bg-indigo-600 md:rounded-full">
-            <svg class="w-5 h-5 mr-2 fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                <g fill="none" stroke="none">
-                    <path
-                        d="M6 12l5.485-5.485A12 12 0 0 1 19.971 3H21v1.029a12 12 0 0 1-3.515 8.486L12 18m-6-6l6 6m-6-6L3 9l.828-.828A4 4 0 0 1 6.657 7H11l-5 5zm6 6l3 3 .828-.828A4 4 0 0 0 17 17.343V13l-5 5zm-4.5-4.5l-2.379 2.379A7.242 7.242 0 0 0 3 21a7.243 7.243 0 0 0 5.121-2.121L10.5 16.5"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                    <path d="M16.778 7.916a.5.5 0 1 1-.556-.832.5.5 0 0 1 .556.832z" fill="#212121"
-                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
-                </g>
-            </svg>
-            <span>ICI</span>
-        </a>
-    </div>
-</section>
+ <section class="flex justify-center  bg-gray-900">
+            <div class="bg-gray-400 border border-gray border-12 rounded-lg shadow-12xl mt-10 p-6 w-full max-w-4xl mb-1">
+                <h3 class="text-xl font-semibold border-b pb-2">Contact</h3>
+                <form action="#">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+                        <div>
+                            <label for="product-name" class="text-sm font-medium text-gray-900 block mb-2">Votre nom :</label>
+                            <input type="text" name="product-name" id="product-name"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                                placeholder="Nom" required="">
+                        </div>
+                        <div>
+                            <label for="category" class="text-sm font-medium text-gray-900 block mb-2">Votre Prenom</label>
+                            <input type="text" name="category" id="category"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                                placeholder="Prenom" required="">
+                        </div>
+                        <div>
+                            <label for="brand" class="text-sm font-medium text-gray-900 block mb-2">Email</label>
+                            <input type="text" name="brand" id="brand"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                                placeholder="Email" required="">
+                        </div>
+                        <div>
+                            <label for="price" class="text-sm font-medium text-gray-900 block mb-2">Votre Numero de Telephone</label>
+                            <input type="number" name="price" id="price"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                                placeholder="tel" required="">
+                        </div>
+                        <div class="col-span-full">
+                            <label for="product-details" class="text-sm font-medium text-gray-900 block mb-2">Message</label>
+                            <textarea id="product-details" rows="4"
+                                class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-cyan-600 focus:border-cyan-600 block w-full p-2.5"
+                                placeholder="Un message ?" required=""></textarea>
+                        </div>
+                    </div>
+                    <button type="submit"
+                        class="mt-5 w-full text-back bg-cyan-600 bg-red-700 focus:ring-4 focus:ring-cyan-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center">envoyer</button>
+                </form>
+            </div>
+        </section>
 <!--fin de l'aside-->
 
 
@@ -237,9 +259,9 @@
 </footer>   
   </template>
   
-  <script setup>
+  <script>
   export default {
     name: 'Acceuil'
-  };
+  }
   </script>
   
