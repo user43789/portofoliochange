@@ -1,7 +1,7 @@
 <template>
   
-<div class="bg-gray-400 pb-6">
-    <div class="text-center lg:text-left max-w-screen-xl mx-auto py-12 px-4 sm:px-6 lg:py-6 lg:px-4 lg:flex lg:items-center lg:justify-between">
+<div class="bg-gray-400 ">
+    <div class="text-center lg:text-left  mx-auto py-12 px-4 sm:px-6 lg:py-6 lg:px-4 lg:flex lg:items-center lg:justify-between"> 
         <h3 class="text-4xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-tight">
             Ready to monitor some websites? <br> 
             <strong class="text-blue-600">Je suis ici.</strong>
@@ -9,7 +9,7 @@
         
         <div class="flex">
             <p class="text-blue-500 font-semibold p-3 text-2xl">Tu ne me connais toujours pas ?</p>
-            <router-link class="text-2xl bg-red-500 p-3 font-bold rounded-lg hover:bg-gray-800" to="./Erreur">Mon profil</router-link>
+            <router-link class="text-2xl bg-red-500 p-3 font-bold rounded-lg   hover:bg-gray-800" to="./Erreur">Page d'Acceuil</router-link>
         </div>
     </div>
 </div>
